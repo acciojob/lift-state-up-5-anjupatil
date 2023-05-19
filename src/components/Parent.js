@@ -9,6 +9,7 @@ const Parent=()=>{
     }
     return(
         <div>
+            <h1 className="">Parent Component</h1>
             <Child isLoggedIn={isLoggedIn} onLogin={handleLogin}></Child>
         </div>
 
